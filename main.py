@@ -11,7 +11,7 @@ turtle.pencolor("#4d2b0f")
 
 dl = 10
 itr = 7
-angle = 40 - randint(-15, 15)
+angle = 30 - randint(-15, 15)
 
 def buildTree(itr):
     axiom = "10"

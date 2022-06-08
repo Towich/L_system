@@ -32,7 +32,7 @@ def buildTree(itr):
             elif axiom[i] == "1":
                 tempAx += "12"
             else:
-                tempAx += "1[+0+0][+0+0]"
+                tempAx += "1[+0-0][-0+0]"
         axiom = tempAx
         tempAx = ""
     print(axiom)
